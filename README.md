@@ -21,7 +21,7 @@ Data diambil menggunakan Smartphone yang memiliki aplikasi sensor. Terdapat 12 d
 
 ## Filter
 
-![Image description](Gambar2.png)
+![Image description](filter.jpg)
 
 Kami menggunakan magnitude untuk mengkitung vektor dari sumbu x, y dan z. Kemudian, magnitude di detrend untuk merapikan data sehingga mudah untuk di fft. Hasil dari fft detrend tersebut nantinya akan digunakan untuk membuat filter. Terakhir, data kemudian di filter dengan menggunakan fungsi filtfilt dan parameter yang digunakan berasal dari design filter yang telah dibuat di atas.
 
@@ -31,7 +31,7 @@ Filter yang kami design merupakan filter bandpass yang artinya kami memfilter si
 
 Data yang kami dapatkan dan hasil yang kami peroleh dari perhitungan menggunakan source code matlab kami adalah sebagai berikut
 
-![Image description](Gambar1.png)
+![Image description](error value.jpeg)
 
 Terdapat beberapa faktor yang menyebabkan error, seperti:
 - Frekuensi cutoff yang kurang tepat untuk setiap data, karena kami hanya menggunakan 1 filter saja
